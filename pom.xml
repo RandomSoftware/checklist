@@ -12,6 +12,20 @@
         <module>server</module>
     </modules>
 
+    <properties>
+        <spring.starter.version>2.1.1.RELEASE</spring.starter.version>
+        <junit.version>4.12</junit.version>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <pluginManagement>
             <plugins>
